@@ -1,0 +1,20 @@
+
+**Description:**  
+A log parser that finds recurring messages, spikes, and clusters of warnings/errors.
+
+#### **README.md**
+```markdown
+# LogTraceMiner - Pattern & Frequency Log Scanner
+
+LogTraceMiner is ideal for backend devs and sysadmins who need fast log summarization and pattern discovery.
+
+## Features
+- Top repeating lines  
+- Keyword highlighting  
+- Works with large files  
+
+## Usage
+```bash
+git clone https://github.com/your-username/32_LogTraceMiner.git
+cd 32_LogTraceMiner
+python analyze.py /var/log/syslog
